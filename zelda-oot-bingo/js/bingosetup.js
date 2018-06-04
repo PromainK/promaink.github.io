@@ -9,7 +9,7 @@ function bingosetup() {
           items.push($(cells[i]).html());
         };
         var newUrl = encodeURIComponent(items.join(';;;'));
-        newUrl = 'https://promaink.github.io/zelda-oot-bingo/popout.html#' + name + '=' + newUrl;
+        newUrl = 'https://speedruntools.com/bingo/bingo-popout#' + name + '=' + newUrl;
         newUrl = newUrl.replace(/ /g, '&nbsp;');
         window.open(newUrl, "_blank", "toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=no, resizable=no, copyhistory=no, width=220, height=460");
 });
