@@ -12,7 +12,7 @@ function bingosetup() {
      // newUrl = 'http://www.speedrunslive.com/tools/bingo-popout.html#' + name + '=' + newUrl;
      // var newUrl = encodeURIComponent(items.join(';;;'));
 
-        newUrl = '/bingo-popout.html#' + name + '=' + newUrl;
+        newUrl = '/zelda-oot-bingo/bingo-popout.html#' + name + '=' + newUrl;
         newUrl = newUrl.replace(/ /g, '&nbsp;');
         window.open(newUrl, '_blank', "toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=no, resizable=no, copyhistory=no, width=220, height=460");
 
