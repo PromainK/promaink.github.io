@@ -8,10 +8,14 @@ function bingosetup() {
         for (var i = 0; i < 5; i++) {
           items.push($(cells[i]).html());
         };
-        var newUrl = encodeURIComponent(items.join(';;;'));
-        newUrl = 'https://speedruntools.com/bingo/bingo-popout#' + name + '=' + newUrl;
+        var newUrl = items.join(';;;');
+     // newUrl = 'http://www.speedrunslive.com/tools/bingo-popout.html#' + name + '=' + newUrl;
+     // var newUrl = encodeURIComponent(items.join(';;;'));
+
+        newUrl = '/bingo-popout.html#' + name + '=' + newUrl;
         newUrl = newUrl.replace(/ /g, '&nbsp;');
-        window.open(newUrl, "_blank", "toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=no, resizable=no, copyhistory=no, width=220, height=460");
+        window.open(newUrl, '_blank', "toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=no, resizable=no, copyhistory=no, width=220, height=460");
+
 });
   
     $("#bingo tr td:not(.popout), #selected td").toggle(
