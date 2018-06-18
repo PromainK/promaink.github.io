@@ -2301,7 +2301,7 @@ var bingoList = {
             "difficulty": 9,
             "id": "beat-the-water-temple",
             "jp": "水の神殿クリア",
-            "jp": "水之神殿 通關",
+            "tw": "水之神殿 通關",
             "name": "Beat the Water Temple",
             "rowtypes": {
                 "bottle": 0,
