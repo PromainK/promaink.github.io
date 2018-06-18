@@ -23,24 +23,31 @@
             else { return 'defaultborder' }
         }
     </script>
-    <style>
-    body {
-        // background-image: url("https://images6.alphacoders.com/333/333155.jpg");
-        // background-attachment: fixed;
-    }
-    </style>
+<style>
+body {
+// background-image: url("https://images6.alphacoders.com/333/333155.jpg");
+// background-attachment: fixed;
+}
+
+ul {
+  height: 25vh;
+  overflow-y: scroll;
+}
+</style>
 </head>
+
+
 <body>
 <div id="wrap"><div id="main">
     <div class="container" id="pageContent">
         <script src="js/seedrandom-min.js" type="text/javascript"></script>
         <!--
-        <script src="https://www.speedrunslive.com/tools/oot-bingo/goallist_v9.2.js" type="text/javascript"></script>
-        <script src="https://www.speedrunslive.com/tools/oot-bingo/generator_v9.2.js" type="text/javascript"></script>
-        <script src="https://www.speedrunslive.com/tools/oot-bingo/bingosetup.js" type="text/javascript"></script>
+        <script src="http://www.speedrunslive.com/tools/oot-bingo/goallist_v9.3.js" type="text/javascript"></script>
+        <script src="http://www.speedrunslive.com/tools/oot-bingo/generator_v9.3.js" type="text/javascript"></script>
+        <script src="http://www.speedrunslive.com/tools/oot-bingo/bingosetup.js" type="text/javascript"></script>
         -->
-        <script src="js/goal-list_v9.2.js" type="text/javascript"></script>
-        <script src="js/generator_v9.2.js" type="text/javascript"></script>
+        <script src="js/goallist_v9.3_tw.js" type="text/javascript"></script>
+        <script src="js/generator_v9.3.js" type="text/javascript"></script>
         <script src="js/bingosetup.js" type="text/javascript"></script>
         
         <div id="bingoPage">
@@ -58,32 +65,47 @@
 
                     <h1>關於</h1>
                     <p>這是一張時之笛比賽專用的賓果卡。</p>
-			<p>為了取勝，必須先於對手集滿五條線 (水平、垂直或對角連線)。</p>
+			<p>為了取勝，您必須先於對手完成五個宮格，並連成一線 (水平、垂直或對角連線)。</p>
 			<p>卡片都會有各自的種子編號，改變種子將會出現新的卡片。</p>
-			<p>您可以點擊宮格，將它們變成綠色和紅色，以呈現出任務狀況來幫助您規劃攻略路線。</p>
-			<p>時之笛賓果挑戰的一些特殊規則：</p>
+			<p>您可以點擊宮格，將它們變成綠色和紅色，以呈現出任務進度來幫助您規劃攻略路線。</p>
 			
-			<ul>
-			<li>禁止使用的技巧<br />
-「在 B 上使用棍子作為成人 (Using Stick on B as Adult)」、<br />
-「物品取得控制 (Get Item Manipulation / GIM)」和<br />
+            <p>特殊規定</p>
+<ul>
+<li>禁止使用的技巧<br />
+「成人時期 B 鍵木棒 (Using Stick on B as Adult)」、<br />
+「物品取得控制 (Get Item Manipulation / GIM)」、<br />
+「炸彈鼠穿牆 (Using Bombchus Out of Bounds)」和<br />
 「按住 R 獲取早期眼球青蛙 (Hold R to obtain Early Eyeball Frog)」。<br />
 </li>		
-            <li>任務具體解釋<br />
-「每個迷宮至少擊破 1 隻 Skulltula」：只要求在有藍色傳送點的迷宮進行任務。<br />
-「N 首樂曲」：稻草人之歌 (Scarecrow's Song) 不算。<br />
+<li>任務具體解釋<br />
+「在 XX 時期的每個迷宮之中收集至少一個黃金骷髏蜘蛛證明」：只要求在有藍色傳送點的迷宮收集證明。<br />
+「樂曲 N 首」：稻草人之歌 (Scarecrow's Song) 不算。<br />
 「青蛙的心之碎片」：只需要得到一隻青蛙的心之碎片。<br />
-「5 個卓拉 (Zora) 區域的心之碎片」：冰穴和 Jabu Jabu 不算。<br />
+「卓拉區域的心之碎片 5 塊」：迷宮「冰之洞窟」和「加卜加卜大人腹中」不算。<br />
+「德庫木棒 / 德庫堅果 / 魔法豆」之類的：以庫存中顯示的數量為準。<br />
+「首領室鑰匙 N 支」：在少年時期用巫術「瓶裝存庫」獲得的首領室鑰匙也算進。<br />
 </li>
-			<li>道具物品要在完整持有的狀態下，連線才算成立<br />
+<li>道具物品要在完整持有的狀態下，連線才算成立<br />
 如果任務說要有藍色藥水 (Blue Potion)，喝掉的話要補到全滿；如果任務說道具要在特定數量，則至少要收集相同數量。</li>
-			<li>要怎樣才算是「完成任務」呢？<br />
-以攻略迷宮來說，當擊敗頭目之後，林克站進去藍色傳送點時，你已經通關了；收集道具物品，當林克將物品放在頭上時，就算「完成」；之於學習樂曲，當文字說「你已經學會了... (You have learned the ...)」。</li>
-            <li>「8 顆體力之心」、「5 首樂曲」、「3 支未使用的鑰匙」之類的收集任務，可以收集超過所需的數量。
-            </ul>
-                    <p class="note">原始頁面：https://www.speedrunslive.com/tools/oot-bingo</p>
-                    <p class="note">Github：https://github.com/giuocob/OoT-Bingo/tree/nodeify</p>
-                </div>
+<li>甚麼時候任務可以被標記為完成？<br />
+樂曲：當文字說「你已經學會了... (You have learned the ...)」。<br />
+道具：當林克將物品放在頭上時。<br />
+迷宮通關：林克站進去藍色傳送點時。<br />
+首領 / 特定敵方擊破：當林克最後一擊命中時。<br />
+錯誤跳關：以影片 (https://youtu.be/dbvC_sRAn_Y) 的右邊演示為例，錯誤跳關並拿到藍寶石的過場之後, 林克變得可以操控時就算完成。
+</li>
+<li>
+「體力之心 8 顆」、「樂曲 5 首」、「小鑰匙 3 支」之類的收集任務，可以收集超過指定的數量。
+</li>
+</ul>
+
+<p class="note">原始頁面: https://www.speedrunslive.com/tools/oot-bingo</p>
+<p class="note">Github: https://github.com/giuocob/OoT-Bingo/tree/nodeify</p>
+<p class="note">GENERATOR: Originally written and designed by Narcissa. Improved by Giuocob. v9 redesign by Saltor. Frequency Balancing by prettybigjoe.</p>
+<p class="note">GOAL LIST: Original goal list by Narcissa. v9.3 data collection and coordination by Gombill. Goal timing and data collection by Exodus, Tob3000, Runnerguy2489, Tasselhoff, Juwk, and others in the community.</p>
+
+</div>
+
                 <div id="debug-panel" hidden>
                     <h1>OoT Bingo - Debug Info</h1>
 
@@ -219,13 +241,6 @@
         </div>
     </div>
 </div></div>
-    <footer>
-        <div class="container">
-            <div class="left">SpeedRunsLive &copy; 2018</div>
-        </div>
-    </footer>
-    <script type="text/javascript">
-    $('footer').addClass( setcolor());
-    </script>
+
 </body>
 </html>
