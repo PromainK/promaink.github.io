@@ -31,7 +31,7 @@ var bingoList = {
             "difficulty": 1,
             "id": "bomb-bag-30-",
             "jp": "ボム袋(30)",
-            "tw": "大炸彈口袋 (30)",
+            "tw": "炸彈袋 (30)",
             "name": "Bomb Bag (30)",
             "rowtypes": {
                 "bottle": 100,
@@ -1852,7 +1852,8 @@ var bingoList = {
         }, {
             "difficulty": 8,
             "id": "7-magic-beans",
-            "jp": "魔法豆 7 莢",
+            "jp": "魔法のマメ7つ以上",
+            "tw": "魔法豆 7 莢",
             "name": "7 Magic Beans",
             "rowtypes": {
                 "bottle": 0,
@@ -2269,7 +2270,7 @@ var bingoList = {
             "difficulty": 9,
             "id": "beat-the-shadow-temple",
             "jp": "闇の神殿クリア",
-            "jp": "闇之神殿 通關",
+            "tw": "闇之神殿 通關",
             "name": "Beat the Shadow Temple",
             "rowtypes": {
                 "bottle": 100,
@@ -3096,7 +3097,7 @@ var bingoList = {
             "difficulty": 12,
             "id": "defeat-barinade",
             "jp": "バリネード撃破",
-            "rq": "啪哩内德 擊破",
+            "tw": "啪哩内德 擊破",
             "name": "Defeat Barinade",
             "rowtypes": {
                 "bottle": 0,
