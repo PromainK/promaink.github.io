@@ -21,7 +21,7 @@ html, body {
 
 body {
   background-color: black;
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)),
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)),
                     url(https://i.imgur.com/kCDraQC.gif);
   background-repeat: no-repeat;
   background-size: cover;
@@ -55,12 +55,20 @@ img {
 }
 
 .intro {
+  background: rgba(0, 0, 0, .5);
   position: fixed;
   top: 60px;
-  right: 3%;
-  width: 20vw;
+  right: 0;
+  width: 24vw;
+  height: calc(100% - 60px);
+  padding-left: 20px;
   text-shadow: black 0.1em 0.1em 0.1em;
   font-size: 14px;
+  overflow-y: scroll;
+}
+
+.intro::-webkit-scrollbar { 
+    display: none; 
 }
 
 h4 {
